@@ -10,6 +10,8 @@
 #ifndef OFX_COMPOSITEMOTION
 #define OFX_COMPOSITEMOTION
 
+// TODO: make it right :)
+
 #include "TCompositeMotion.h"
 #include "Easing.h"
 #include "Motion.h"

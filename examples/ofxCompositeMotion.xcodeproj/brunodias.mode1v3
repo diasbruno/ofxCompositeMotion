@@ -268,18 +268,19 @@
 							<array>
 								<string>E4B69B4A0A3A1720003C02F2</string>
 								<string>E4B69E1C0A3A1BDC003C02F2</string>
-								<string>03528D1A14953B9700632FD8</string>
 								<string>BB4B014C10F69532006C3DED</string>
 								<string>03528C4914951ABE00632FD8</string>
 								<string>03528C4B14951ABE00632FD8</string>
-								<string>035096F1149578AD0046824C</string>
-								<string>035096F4149578AD0046824C</string>
+								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>16</integer>
+									<integer>12</integer>
+									<integer>10</integer>
+									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -321,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Project.xcconfig</string>
+								<string>ofxCompositeMotion.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,32 +330,32 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Project.xcconfig</string>
+										<string>ofxCompositeMotion.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>03509746149581A50046824C</string>
+										<string>03509780149583550046824C</string>
 										<key>history</key>
 										<array>
 											<string>03528E3914954D9000632FD8</string>
 											<string>03528E3B14954D9000632FD8</string>
 											<string>03528F2F1495593600632FD8</string>
-											<string>0352901A1495683B00632FD8</string>
 											<string>03529033149568BA00632FD8</string>
-											<string>0352908F1495704500632FD8</string>
 											<string>03509728149581450046824C</string>
 											<string>03509729149581450046824C</string>
 											<string>0350972A149581450046824C</string>
 											<string>0350972B149581450046824C</string>
-											<string>0350972C149581450046824C</string>
-											<string>0350972D149581450046824C</string>
 											<string>0350972E149581450046824C</string>
 											<string>0350972F149581450046824C</string>
 											<string>03509730149581450046824C</string>
 											<string>03509731149581450046824C</string>
 											<string>03509732149581450046824C</string>
-											<string>03509733149581450046824C</string>
-											<string>03509735149581450046824C</string>
+											<string>035097771495831B0046824C</string>
+											<string>035097781495831B0046824C</string>
+											<string>035097791495831B0046824C</string>
+											<string>0350977B1495831B0046824C</string>
+											<string>0350977E149583550046824C</string>
+											<string>0350977F149583550046824C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -552,13 +553,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>03509751149581A50046824C</string>
 		<string>03509752149581A50046824C</string>
 		<string>03509753149581A50046824C</string>
-		<string>03528C3D1495170000632FD8</string>
-		<string>/Dias/Developer Tools/c++/openFrameworks/addons/ofxCompositeMotion/examples/ofxCompositeMotion.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>03528C3D1495170000632FD8</string>
+		<string>/Dias/Developer Tools/c++/openFrameworks/addons/ofxCompositeMotion/examples/ofxCompositeMotion.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1280 719 0 0 1280 778 </string>
@@ -775,7 +775,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
@@ -940,7 +940,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
