@@ -1,10 +1,6 @@
-/*
- *  CompositeMotion.h
- *  emptyExample
- *
- *  Created by BH on 12/11/11.
- *  Copyright 2011 Freelancer Interactive Developer. All rights reserved.
- *
+/**
+ * CompositeMotion.h
+ * Created by BH on 12/11/11.
  */
 
 #ifndef OFX_COMPOSITEMOTION_
@@ -13,7 +9,12 @@
 class CompositeMotion {
 public:
 	
-	virtual void update(int time){};
+	//virtual void start() {};
+	virtual void update(int time) {};
+	
+protected:
+	
+	int _ease;
 	
 };
 

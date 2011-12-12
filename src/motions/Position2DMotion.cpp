@@ -1,10 +1,6 @@
-/*
- *  Position2DMotion.cpp
- *  emptyExample
- *
- *  Created by BH on 12/11/11.
- *  Copyright 2011 Freelancer Interactive Developer. All rights reserved.
- *
+/**
+ * Position2DMotion.cpp
+ * Created by BH on 12/11/11.
  */
 
 #include "Position2DMotion.h"

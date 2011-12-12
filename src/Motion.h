@@ -1,10 +1,6 @@
-/*
- *  Motion.h
- *  emptyExample
- *
- *  Created by BH on 12/11/11.
- *  Copyright 2011 Freelancer Interactive Developer. All rights reserved.
- *
+/**
+ * Motion.h
+ * Created by BH on 12/11/11.
  */
 
 #ifndef OFX_COMPOSITEMOTION_MOTION

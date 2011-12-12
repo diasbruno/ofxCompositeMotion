@@ -1,10 +1,6 @@
-/*
- *  ColorizeMotion.h
- *  emptyExample
- *
- *  Created by BH on 12/11/11.
- *  Copyright 2011 Freelancer Interactive Developer. All rights reserved.
- *
+/**
+ * ColorizeMotion.h
+ * Created by BH on 12/11/11.
  */
 
 #ifndef OFX_COMPOSITEMOTION_COLORIZE
@@ -38,8 +34,6 @@ protected:
 	
 	bool _autoStart;
 	bool _isInfinity;
-	
-	int _ease;
 	
 };
 

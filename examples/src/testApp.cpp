@@ -1,8 +1,12 @@
 #include "testApp.h"
-#include "Position2DMotion.h"
 
 //--------------------------------------------------------------
 void testApp::setup(){
+	//ofSetVerticalSync(true);
+	ofBackground(0, 0, 0);
+	
+	ofSetWindowTitle("ofxCompositeMotion");
+	
 	ball = Ball(0 , 0);
 	
 	motion = Position2DMotion(true, false, ofGetWindowWidth()/2, ofGetWindowHeight()/2);
@@ -26,10 +30,19 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
+	ofBackground(0, 0, 0);
+	ofEnableSmoothing();
+	
+	//ofSetLineWidth(1.0);
+	ofSetCircleResolution(100);
+	
 	ball.draw();
 	
 	ofSetColor(200, 140, 90);
-	ofEllipse(ofGetWindowWidth()/2, ofGetWindowHeight()/2 + 50, 20, 20);
+	ofFill();
+	ofEllipse(ofGetWindowWidth()/2, ofGetWindowHeight()/2 + 100, 50, 50);
+	
+	ofDisableSmoothing();
 }
 
 //--------------------------------------------------------------

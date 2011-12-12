@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		035096F9149578AD0046824C /* Easing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 035096F2149578AD0046824C /* Easing.cpp */; };
 		035096FA149578AD0046824C /* ColorizeMotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 035096F5149578AD0046824C /* ColorizeMotion.cpp */; };
 		035096FB149578AD0046824C /* Position2DMotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 035096F7149578AD0046824C /* Position2DMotion.cpp */; };
 		03528C84149534DB00632FD8 /* CompositeMotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03528C83149534DB00632FD8 /* CompositeMotion.cpp */; };
@@ -63,13 +62,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		035096F2149578AD0046824C /* Easing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Easing.cpp; sourceTree = "<group>"; };
 		035096F3149578AD0046824C /* Easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easing.h; sourceTree = "<group>"; };
 		035096F5149578AD0046824C /* ColorizeMotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorizeMotion.cpp; sourceTree = "<group>"; };
 		035096F6149578AD0046824C /* ColorizeMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorizeMotion.h; sourceTree = "<group>"; };
 		035096F7149578AD0046824C /* Position2DMotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Position2DMotion.cpp; sourceTree = "<group>"; };
 		035096F8149578AD0046824C /* Position2DMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position2DMotion.h; sourceTree = "<group>"; };
 		03509726149581320046824C /* ofxCompositeMotionDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxCompositeMotionDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0350988C1495B1DD0046824C /* MParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MParam.h; sourceTree = "<group>"; };
 		03528C4A14951ABE00632FD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		03528C4C14951AD500632FD8 /* ofxCompositeMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCompositeMotion.h; sourceTree = "<group>"; };
 		03528C651495343800632FD8 /* TCompositeMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCompositeMotion.h; sourceTree = "<group>"; };
@@ -129,7 +128,6 @@
 		035096F1149578AD0046824C /* easing */ = {
 			isa = PBXGroup;
 			children = (
-				035096F2149578AD0046824C /* Easing.cpp */,
 				035096F3149578AD0046824C /* Easing.h */,
 			);
 			path = easing;
@@ -167,6 +165,7 @@
 				03528C83149534DB00632FD8 /* CompositeMotion.cpp */,
 				0352900A149566BA00632FD8 /* Motion.h */,
 				0352900B149566BA00632FD8 /* Motion.cpp */,
+				0350988C1495B1DD0046824C /* MParam.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -358,7 +357,6 @@
 				03528C84149534DB00632FD8 /* CompositeMotion.cpp in Sources */,
 				03528D2814953CE200632FD8 /* Ball.cpp in Sources */,
 				0352900C149566BA00632FD8 /* Motion.cpp in Sources */,
-				035096F9149578AD0046824C /* Easing.cpp in Sources */,
 				035096FA149578AD0046824C /* ColorizeMotion.cpp in Sources */,
 				035096FB149578AD0046824C /* Position2DMotion.cpp in Sources */,
 			);
@@ -389,6 +387,7 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
 				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;

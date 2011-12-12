@@ -1,15 +1,9 @@
-/*
- *  ColorizeMotion.cpp
- *  emptyExample
- *
- *  Created by BH on 12/11/11.
- *  Copyright 2011 Freelancer Interactive Developer. All rights reserved.
- *
+/**
+ * ColorizeMotion.cpp
+ * Created by BH on 12/11/11.
  */
 
 #include "ColorizeMotion.h"
-
-
 
 ColorizeMotion::ColorizeMotion(bool autoStart, bool isInfinity, float endR, float endB, float endG, int ease) {
 	_autoStart = autoStart;

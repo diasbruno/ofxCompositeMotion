@@ -26,9 +26,9 @@ public:
 	}
 	
 	void draw() {
-		ofSetCircleResolution(32);
 		ofSetColor(r, b, g);
-		ofEllipse(x, y, 20, 20);
+		ofFill();
+		ofEllipse(x, y, 50, 50);
 	}
 	
 	float r;
